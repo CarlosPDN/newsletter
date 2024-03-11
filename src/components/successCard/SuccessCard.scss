@@ -1,0 +1,75 @@
+@media only screen and (min-width: 760px) {
+  .Success-Area {
+    background-color: white;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+    color: #242742;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 504px;
+    height: 520px;
+
+    &__text {
+      margin: 2em 2em;
+      img {
+        height: 64px;
+      }
+    }
+    &__Button {
+      padding: 2em 2em;
+      button {
+        margin-top: 24px;
+        font-weight: 600;
+        font-size: medium;
+        width: 100%;
+        height: 58px;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        background-color: #242742;
+      }
+      button:hover {
+        background: linear-gradient(180deg, #ff6a3a, #ff527b);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .Success-Area {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__text {
+      margin: 2em 2em;
+      padding-top: 8em;
+      img {
+        height: 64px;
+      }
+    }
+    &__Button {
+      padding: 2em 2em;
+      button {
+        margin-top: 24px;
+        font-weight: 600;
+        font-size: medium;
+        width: 100%;
+        height: 58px;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        background-color: #242742;
+      }
+      button:hover {
+        background: linear-gradient(180deg, #ff6a3a, #ff527b);
+      }
+    }
+  }
+}
