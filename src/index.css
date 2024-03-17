@@ -2,4 +2,8 @@ body {
   margin: 0;
   font-family: Arial;
   background-color: #36384c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
